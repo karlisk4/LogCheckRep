@@ -52,7 +52,7 @@ int main()
             //cout << rnName;
             //cout << "\n";
         }
-        if (curLine.find(drsPen) != string::npos) {
+        if (curLine.find(drsPen) != string::npos) { //rewrite whole section to include tires and refuel
             if (curLine.find(pstRac) != string::npos) {
 
             } else {
